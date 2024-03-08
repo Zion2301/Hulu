@@ -1,0 +1,644 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.first {
+    /* height: 1000px; */
+    padding: 45px;
+    background-image: url(https://hulu-welcome.netlify.app/static/media/hulu-background.947968eed8819a505079.jpg);
+}
+
+.log {
+   color: rgb(198, 198, 198);
+   text-decoration: none;
+}
+
+.head {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.middle-fes {
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: white;
+}
+
+.mini-middle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+
+.middle-one {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   /* padding-left: 300px; */
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+.middle-one-1 {
+    width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+.bundle {
+    color: springgreen;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.disney {
+    margin-top: 20px;
+}
+
+.get {
+    color: black;
+    background-color: springgreen;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.money {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.terms {
+    color: rgb(220, 220, 220);
+    font-size: 12px;
+    text-align: center;
+}
+
+.sign {
+    color: white;
+}
+
+.view {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 25px;
+    /* border: 1px solid white; */
+    color: white;
+    /* width: 50px; */
+    text-align: center;
+}
+
+
+.second {
+    background: linear-gradient(180deg, springgreen, black);
+    padding: 30px;
+    width: 100%;
+    /* height: 50px; */
+    text-decoration: center;
+    color: white;
+}
+
+.build {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.mini-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.start {
+    text-align: center;
+    margin-left: 560px;
+    margin-right: 560px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.start:hover {
+    background-color: white;
+    color: springgreen;
+    transition: 0.5s;
+}
+
+
+.third {
+    padding: 70px;
+    background-color: black;
+    text-align: center;
+}
+
+.include {
+    color: springgreen;
+    font-size: 13px;
+}
+
+.love {
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.watch {
+  color: white; 
+  margin-top: 20px; 
+}
+
+.movies {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.movie {
+    width: 25%;
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/82fd53644e709344c9e9c1f4ba66519505ecea256294d59a0637bda76ae1436b/original);
+    height: 500px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.338);
+    padding: 20px;
+}
+
+.movie:hover {
+    cursor: pointer;
+    border: 4px solid white;
+    transition: 0.5s;
+}
+
+.past {
+    color: white;
+}
+
+
+.shows {
+    color: white;
+    margin-top: 10px;
+}
+
+.movie-2 {
+    width: 25%;
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/8c630a19daa8615918152082839724f4dab6538939ba7d3bb45f8faa97acf1b9/original);
+    height: 500px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.movie-2:hover {
+    cursor: pointer;
+    border: 4px solid white;
+    transition: 0.5s;
+}
+
+.movie-3 {
+    width: 25%;
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/571929c3a1eca48a7e95dace8daf723005b4dcc3bd1631e78a373ef3c3489e1b/original);
+    height: 500px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.movie-3:hover {
+    cursor: pointer;
+    border: 4px solid white;
+    transition: 0.5s;
+}
+
+.movie-4 {
+    width: 25%;
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/f3f84cde435747f424ce4ad52d351efc96b5da4765af2f76afa9b86fb5bc9a37/original);
+    height: 500px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.movie-4:hover {
+    cursor: pointer;
+    border: 4px solid white;
+    transition: 0.5s;
+}
+
+.now {
+    color: springgreen;
+    font-size: 13px;
+    margin-top: 190px;
+}
+
+.live {
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.news {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.hulu {
+   background-color: springgreen;
+   font-size: 14px;
+   color: black;
+   text-decoration: none;
+   font-weight: bold;
+   padding: 15px;
+   border-radius: 5px;
+}
+
+.details {
+    color: grey;
+    font-size: 11px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.view {
+    color: white;
+    margin-top: 30px;
+}
+
+.fourth {
+    background-image: url(https://images.unsplash.com/photo-1508355991726-ebd81e4802f7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNlbHRpYyUyMGZvb3RiYWxsJTIwY2x1YnxlbnwwfHwwfHx8MA%3D%3D);
+    /* height: 700px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mini-fourth {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.692);
+    padding-top: 270px;
+    padding-bottom: 60px;
+    padding-left: 270px;
+    display: flex;
+    gap: 30px;
+}
+
+.micro-fourth {
+    width: 50%;
+}
+
+.sports {
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.or {
+    color: white;
+    font-size: 50px;
+    margin-top: 45px;
+}
+
+.catch {
+    color: white;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.espn {
+    width: 50px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.tiny {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+
+.required {
+    color: white;
+    font-size: 11px;
+    margin-top: 30px;
+} 
+
+.fifth {
+    padding: 70px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.select {
+    font-size: 50px;
+}
+
+.plans {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+span {
+    font-weight: bold;
+}
+
+.hul {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.more-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    margin-left: 170px;
+    margin-right: 170px;
+    border-bottom: 1px solid white;
+}
+
+.lots-borders {
+    padding: 20px;
+    display: flex;
+    padding-right: 200px;
+    border-bottom: 1px solid white;
+    /* margin-left: 170px; */
+    /* margin-right: 170px; */
+    gap: 50px;
+}
+
+.disney-2 {
+    width: 70px;
+}
+
+.bundle-2 {
+    font-size: 10px;
+}
+
+.money-2 {
+    font-size: 11px;
+}
+
+.get-2 {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.diff {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    margin-left: 170px;
+    margin-right: 170px;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.monthly {
+  font-size: 14px;
+}
+
+.prices {
+    display: flex;
+    gap: 90px;
+}
+
+.prices > i {
+    font-size: 30px;
+    color: springgreen;
+}
+
+.weekly {
+     font-size: 10px;
+}
+
+.diff-2 {
+    padding-top: 15px;
+    padding-bottom: 35px;
+    text-align: left;
+    margin-left: 170px;
+    margin-right: 170px;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact {
+    padding: 70px;
+}
+
+.stream {
+    color: grey;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.top-fes {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     align-items: center;
+}
+
+.fes-fes {
+    display: flex;
+    gap: 65px;
+}
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+}
+
+.top-sec {
+    display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+
+.top-sed {
+    display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+
+.bottom {
+    padding-top: 30px;
+    border-top: 1px solid grey;
+}
+
+.socials > i {
+     font-size: 20px;
+     color: grey;
+}
+
+.socials {
+    display: flex;
+    gap: 30px;
+}
+
+.user {
+    font-size: 12px;
+    color: grey;
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .start {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .movies {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .movie, .movie-2, .movie-3, .movie-4 {
+        width: 100%;
+    }
+
+    .fes-fes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .diff {
+        flex-direction: column;
+    }
+
+    .weekly {
+        text-align: center;
+    }
+
+    .lots-borders {
+        padding-right: 50px;
+    }
+
+    .mini-fourth {
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 5px;
+    }
+
+    .telly {
+        width: 100%;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .micro-fourth {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 795px) {
+    .fifth {
+        padding: 30px;
+    }
+
+    .diff {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .diff-2 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .top {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* * {
+        width: 100%;
+        overflow-x: hidden;
+    } */
+}
+
+@media screen and (max-width: 590px) {
+    .third {
+        padding: 30px;
+    }
+
+    .mini-middle {
+        flex-direction: column;
+    }
+
+    .start {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .middle-one {
+       
+    }
+}
